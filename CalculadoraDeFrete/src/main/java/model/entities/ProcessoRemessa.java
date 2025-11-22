@@ -1,6 +1,7 @@
 package model.entities;
 
 import model.service.CalculadoraFrete;
+import model.service.FreteFedex;
 
 public class ProcessoRemessa {
 
