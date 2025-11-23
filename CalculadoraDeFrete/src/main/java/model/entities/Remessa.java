@@ -6,7 +6,7 @@ public class Remessa {
 
     private Double peso;
     private Double distanciaKm;
-    private static String codigoRastreio;
+    private String codigoRastreio;
 
     public Remessa(Double peso, Double distanciaKm, String codigoRastreio) {
         this.peso = peso;
@@ -22,7 +22,7 @@ public class Remessa {
         return distanciaKm;
     }
 
-    public static String getCodigoRastreio() {
+    public String getCodigoRastreio() {
         return codigoRastreio;
     }
 }
